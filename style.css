@@ -78,6 +78,11 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
 form {
   display: flex;
   justify-content: center;
@@ -145,6 +150,41 @@ form input[type="submit"]:hover {
   border-radius: 0.5rem;
   text-align: center;
   min-height: 4.5rem;
+  font-size: 1.8rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+footer p a:hover {
+  color: #007bff;
+}
+footer p a:active {
+  color: #9775fa;
 }
 
 /* media queries */
+
+@media (max-width: 768px) {
+  form {
+    flex-direction: column;
+  }
+  form input[type="text"] {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .container {
+    width: 90%;
+    margin-top: 4rem;
+  }
+}
