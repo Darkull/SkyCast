@@ -33,7 +33,7 @@ Users should be able to:
   ![Desktop View](https://i.imgur.com/lNadhTW.png)
 
 - Mobile View
-  ![Mobile View](https://i.imgur.com/VXB6qQw.png)
+  <img src="https://i.imgur.com/VXB6qQw.png" alt="Mobile View">
 
 ### Links
 
